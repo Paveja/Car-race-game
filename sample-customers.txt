@@ -1,0 +1,20 @@
+Sample Customers
+================
+
+ID: CUST-1001
+Name: Avery Morgan
+Email: avery.morgan@example.com
+City: Portland
+Status: Active
+
+ID: CUST-1002
+Name: Jordan Lee
+Email: jordan.lee@example.com
+City: Austin
+Status: Active
+
+ID: CUST-1003
+Name: Casey Patel
+Email: casey.patel@example.com
+City: Denver
+Status: Inactive

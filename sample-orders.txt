@@ -1,0 +1,26 @@
+Sample Orders
+=============
+
+Order ID: ORD-2001
+Customer ID: CUST-1001
+Date: 2025-04-12
+Item: Notebook
+Quantity: 2
+Total: $19.98
+Status: Shipped
+
+Order ID: ORD-2002
+Customer ID: CUST-1002
+Date: 2025-04-15
+Item: Desk lamp
+Quantity: 1
+Total: $34.50
+Status: Processing
+
+Order ID: ORD-2003
+Customer ID: CUST-1003
+Date: 2025-04-18
+Item: Water bottle
+Quantity: 3
+Total: $44.97
+Status: Delivered
