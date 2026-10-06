@@ -1,0 +1,4 @@
+Customer ID | Name          | Email                  | City
+C-1001      | Jordan Lee    | jordan.lee@example.com | Portland
+C-1002      | Avery Morgan  | avery.morgan@example.com | Austin
+C-1003      | Sam Rivera    | sam.rivera@example.com | Toronto
