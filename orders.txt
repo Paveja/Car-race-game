@@ -1,0 +1,20 @@
+Order ID: O-2001
+Customer ID: C-1001
+Date: 2025-02-14
+Items: Notebook, Pen Set
+Total: $24.50
+Status: Shipped
+
+Order ID: O-2002
+Customer ID: C-1002
+Date: 2025-02-18
+Items: Desk Lamp
+Total: $39.99
+Status: Processing
+
+Order ID: O-2003
+Customer ID: C-1003
+Date: 2025-02-20
+Items: Water Bottle, Tote Bag
+Total: $31.00
+Status: Delivered
