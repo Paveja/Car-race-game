@@ -1,0 +1,22 @@
+Sample orders
+
+Order ID: O-2401
+Customer ID: C-1001
+Date: 2025-04-12
+Items: Notebook (2), Pen set (1)
+Total: $18.50
+Status: shipped
+
+Order ID: O-2402
+Customer ID: C-1002
+Date: 2025-04-15
+Items: Desk lamp (1)
+Total: $34.00
+Status: processing
+
+Order ID: O-2403
+Customer ID: C-1003
+Date: 2025-04-18
+Items: Water bottle (1), Tote bag (1)
+Total: $27.25
+Status: delivered
