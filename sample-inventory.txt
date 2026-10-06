@@ -1,0 +1,19 @@
+Sample Inventory Records
+
+SKU: ITEM-2048
+Name: Reusable Water Bottle
+Category: Accessories
+Quantity: 86
+Unit Price: 18.50 USD
+
+SKU: ITEM-3192
+Name: Desk Lamp
+Category: Office
+Quantity: 24
+Unit Price: 42.00 USD
+
+SKU: ITEM-5077
+Name: Canvas Tote Bag
+Category: Accessories
+Quantity: 53
+Unit Price: 12.75 USD
