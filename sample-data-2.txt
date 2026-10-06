@@ -1,0 +1,11 @@
+Sample Inventory
+
+Item: Notebook
+SKU: NOTE-001
+Quantity: 24
+Unit Price: 3.50
+
+Item: Desk Lamp
+SKU: LAMP-014
+Quantity: 8
+Unit Price: 18.99

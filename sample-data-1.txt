@@ -1,0 +1,13 @@
+Sample People
+
+ID: 001
+Name: Alex Morgan
+Email: alex.morgan@example.test
+City: Portland
+Status: Active
+
+ID: 002
+Name: Jordan Lee
+Email: jordan.lee@example.test
+City: Austin
+Status: Pending
