@@ -1,0 +1,19 @@
+Sample Customer Data
+
+ID: CUST-1001
+Name: Maya Chen
+Email: maya.chen@example.com
+City: Portland
+Status: Active
+
+ID: CUST-1002
+Name: Luis Romero
+Email: luis.romero@example.com
+City: Austin
+Status: Active
+
+ID: CUST-1003
+Name: Priya Shah
+Email: priya.shah@example.com
+City: Toronto
+Status: Pending
