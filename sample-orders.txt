@@ -1,0 +1,4 @@
+Order ID | Customer ID | Date       | Item                  | Quantity | Status
+O-5001   | C-1001      | 2025-03-04 | Ceramic travel mug    | 2        | Shipped
+O-5002   | C-1002      | 2025-03-05 | Desk organizer        | 1        | Processing
+O-5003   | C-1003      | 2025-03-06 | Reusable notebook     | 3        | Delivered
