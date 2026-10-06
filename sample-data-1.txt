@@ -1,0 +1,20 @@
+Sample Contacts
+===============
+
+ID: C-1001
+Name: Jordan Lee
+Email: jordan.lee@example.test
+City: Portland
+Status: Active
+
+ID: C-1002
+Name: Casey Morgan
+Email: casey.morgan@example.test
+City: Austin
+Status: Pending
+
+ID: C-1003
+Name: Riley Patel
+Email: riley.patel@example.test
+City: Toronto
+Status: Active
