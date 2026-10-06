@@ -1,0 +1,23 @@
+Sample Orders
+=============
+
+Order: O-2401
+Customer: C-1001
+Date: 2025-02-14
+Items: 2 notebooks, 1 pen set
+Total: 18.50 USD
+Status: Shipped
+
+Order: O-2402
+Customer: C-1002
+Date: 2025-02-16
+Items: 1 desk lamp
+Total: 34.99 USD
+Status: Processing
+
+Order: O-2403
+Customer: C-1003
+Date: 2025-02-18
+Items: 3 storage boxes
+Total: 27.00 USD
+Status: Delivered
