@@ -1,0 +1,4 @@
+Order ID | Customer ID | Date       | Item                    | Quantity | Total
+O-5001   | C-1001      | 2025-02-14 | Ceramic travel mug      | 2        | $38.00
+O-5002   | C-1002      | 2025-02-15 | Recycled canvas tote    | 1        | $24.50
+O-5003   | C-1003      | 2025-02-16 | Stainless water bottle  | 3        | $57.00
