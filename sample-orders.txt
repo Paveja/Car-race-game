@@ -1,0 +1,22 @@
+Sample order data
+
+Order ID: ORD-24001
+Customer ID: CUST-1001
+Order Date: 2025-02-14
+Items: 2 x Notebook, 1 x Pen Set
+Total: $34.50
+Status: Shipped
+
+Order ID: ORD-24002
+Customer ID: CUST-1002
+Order Date: 2025-02-16
+Items: 1 x Desk Lamp
+Total: $48.00
+Status: Processing
+
+Order ID: ORD-24003
+Customer ID: CUST-1003
+Order Date: 2025-02-17
+Items: 3 x Coffee Mug
+Total: $27.00
+Status: Delivered
