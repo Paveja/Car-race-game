@@ -1,0 +1,4 @@
+Order ID | Customer ID | Item              | Quantity | Status
+O1001    | C001        | Ceramic mug       | 2        | Shipped
+O1002    | C002        | Notebook set      | 1        | Processing
+O1003    | C003        | Reusable bottle   | 3        | Delivered

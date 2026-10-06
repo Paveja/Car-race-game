@@ -1,0 +1,4 @@
+Customer ID | Name          | Email                  | City
+C001        | Maya Chen     | maya.chen@example.com  | Seattle
+C002        | Oliver Patel  | oliver.patel@example.com | Austin
+C003        | Sofia Rivera  | sofia.rivera@example.com | Boston
