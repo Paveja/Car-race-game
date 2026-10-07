@@ -1,0 +1,23 @@
+Sample Orders
+=============
+
+Order: O-2041
+Customer ID: C-1001
+Date: 2025-02-12
+Items: 2
+Total: $48.50
+Status: Shipped
+
+Order: O-2042
+Customer ID: C-1002
+Date: 2025-02-15
+Items: 1
+Total: $19.99
+Status: Processing
+
+Order: O-2043
+Customer ID: C-1003
+Date: 2025-02-18
+Items: 3
+Total: $76.25
+Status: Delivered
