@@ -30,19 +30,18 @@ const KEYS: CalculatorKey[] = [
     kind: "utility",
     action: "delete",
   },
-  { label: "÷", ariaLabel: "Divide", kind: "operator", value: "÷" },
+  { label: "×", ariaLabel: "Multiply", kind: "operator", value: "×" },
   { label: "7", ariaLabel: "7", kind: "number", value: "7" },
   { label: "8", ariaLabel: "8", kind: "number", value: "8" },
   { label: "9", ariaLabel: "9", kind: "number", value: "9" },
-  { label: "×", ariaLabel: "Multiply", kind: "operator", value: "×" },
+  { label: "−", ariaLabel: "Subtract", kind: "operator", value: "−" },
   { label: "4", ariaLabel: "4", kind: "number", value: "4" },
   { label: "5", ariaLabel: "5", kind: "number", value: "5" },
   { label: "6", ariaLabel: "6", kind: "number", value: "6" },
-  { label: "−", ariaLabel: "Subtract", kind: "operator", value: "−" },
+  { label: "+", ariaLabel: "Add", kind: "operator", value: "+" },
   { label: "1", ariaLabel: "1", kind: "number", value: "1" },
   { label: "2", ariaLabel: "2", kind: "number", value: "2" },
   { label: "3", ariaLabel: "3", kind: "number", value: "3" },
-  { label: "+", ariaLabel: "Add", kind: "operator", value: "+" },
   { label: "0", ariaLabel: "0", kind: "number", value: "0", wide: true },
   { label: ".", ariaLabel: "Decimal point", kind: "number", value: "." },
   {
@@ -84,9 +83,7 @@ export function Calculator() {
             base.lastIndexOf("−"),
             base.lastIndexOf("-"),
             base.lastIndexOf("×"),
-            base.lastIndexOf("÷"),
             base.lastIndexOf("*"),
-            base.lastIndexOf("/"),
           );
           const currentNumber = base.slice(lastOperator + 1);
 
@@ -123,7 +120,7 @@ export function Calculator() {
         const prefixWithoutSign = prefix.slice(0, -1);
         const hasUnarySign =
           (sign === "−" || sign === "-") &&
-          (prefixWithoutSign.length === 0 || /[+−×÷*/-]$/.test(prefixWithoutSign));
+          (prefixWithoutSign.length === 0 || /[+−×*/-]$/.test(prefixWithoutSign));
 
         if (hasUnarySign) {
           return `${prefixWithoutSign}${base.slice(numberStart)}`;
@@ -204,7 +201,6 @@ export function Calculator() {
         "+": "+",
         "-": "−",
         "*": "×",
-        "/": "÷",
       };
       const operator = keyboardOperators[event.key];
 

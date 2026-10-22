@@ -5,12 +5,11 @@ export class CalculationError extends Error {
   }
 }
 
-const TOKEN_PATTERN = /\s*(\d+(?:\.\d*)?|\.\d+|[+\-*/])\s*/y;
+const TOKEN_PATTERN = /\s*(\d+(?:\.\d*)?|\.\d+|[+\-*])\s*/y;
 
 function tokenize(expression: string): string[] {
   const normalized = expression
     .replace(/×/g, "*")
-    .replace(/÷/g, "/")
     .replace(/−/g, "-");
   const tokens: string[] = [];
   let position = 0;
@@ -51,7 +50,7 @@ export function evaluateExpression(expression: string): number {
       return token === "-" ? -value : value;
     }
 
-    if (token === "*" || token === "/") {
+    if (token === "*") {
       throw new CalculationError("Enter a valid calculation.");
     }
 
@@ -68,16 +67,10 @@ export function evaluateExpression(expression: string): number {
   function parseTerm(): number {
     let value = parseNumber();
 
-    while (tokens[position] === "*" || tokens[position] === "/") {
-      const operator = tokens[position];
+    while (tokens[position] === "*") {
       position += 1;
       const nextValue = parseNumber();
-
-      if (operator === "/" && nextValue === 0) {
-        throw new CalculationError("Cannot divide by zero.");
-      }
-
-      value = operator === "*" ? value * nextValue : value / nextValue;
+      value *= nextValue;
 
       if (!Number.isFinite(value)) {
         throw new CalculationError("This result is too large to display.");
