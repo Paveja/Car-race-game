@@ -1,0 +1,322 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --color-canvas: #e9e3d8;
+  --color-paper: #faf8f2;
+  --color-paper-edge: #d9d1c2;
+  --color-ink: #292b28;
+  --color-ink-hover: #3c403b;
+  --color-ink-soft: #67645c;
+  --color-display: #292d2a;
+  --color-display-text: #fffaf0;
+  --color-display-muted: #b9b8ae;
+  --color-key: #f4f0e8;
+  --color-key-hover: #ebe5d9;
+  --color-key-utility: #e9e2d5;
+  --color-operator: #d9a665;
+  --color-operator-hover: #e4b678;
+  --color-error: #9f3f35;
+  --color-focus: #82521f;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --radius-control: 14px;
+  --radius-display: 18px;
+  --radius-panel: 28px;
+  --font-size-caption: 0.75rem;
+  --font-size-small: 0.875rem;
+  --font-size-body: 1rem;
+  --font-size-key: 1.25rem;
+  --font-size-key-operator: 1.375rem;
+  --font-size-expression: clamp(1.125rem, 5vw, 1.5rem);
+  --font-size-result: clamp(1.875rem, 8vw, 2.5rem);
+  --font-size-heading: clamp(2rem, 7vw, 2.625rem);
+  --shadow-panel: 0 24px 64px rgb(48 40 28 / 12%),
+    0 3px 10px rgb(48 40 28 / 7%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-shell {
+  display: grid;
+  min-height: 100vh;
+  min-height: 100svh;
+  place-items: center;
+  padding: clamp(24px, 6vw, 72px) var(--space-4);
+}
+
+.calculator-frame {
+  width: min(100%, 412px);
+}
+
+.page-heading {
+  margin: 0 0 var(--space-6) var(--space-1);
+}
+
+.page-heading__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-2);
+  color: var(--color-ink-soft);
+  font-size: var(--font-size-caption);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-heading__mark {
+  width: var(--space-2);
+  height: var(--space-2);
+  border: 2px solid var(--color-operator);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px var(--color-canvas);
+  background: var(--color-ink);
+}
+
+.page-heading h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--font-size-heading);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.page-heading__description {
+  margin: var(--space-2) 0 0;
+  color: var(--color-ink-soft);
+  font-size: var(--font-size-body);
+  line-height: 1.5;
+}
+
+.calculator-panel {
+  padding: var(--space-4);
+  border: 1px solid var(--color-paper-edge);
+  border-radius: var(--radius-panel);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-panel);
+}
+
+.calculator-display {
+  min-width: 0;
+  margin-bottom: var(--space-4);
+  padding: var(--space-4);
+  border: 1px solid rgb(255 255 255 / 9%);
+  border-radius: var(--radius-display);
+  background: var(--color-display);
+  color: var(--color-display-text);
+}
+
+.calculator-display__label,
+.calculator-result__label {
+  display: block;
+  color: var(--color-display-muted);
+  font-size: var(--font-size-caption);
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.calculator-display__input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin: var(--space-2) 0 var(--space-4);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--color-display-text);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: var(--font-size-expression);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.calculator-display__input::placeholder {
+  color: var(--color-display-muted);
+  opacity: 0.72;
+}
+
+.calculator-display__input:focus-visible {
+  box-shadow: 0 2px 0 var(--color-operator);
+}
+
+.calculator-result {
+  display: flex;
+  min-height: 56px;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid rgb(255 255 255 / 16%);
+}
+
+.calculator-result__label {
+  padding-bottom: var(--space-1);
+}
+
+.calculator-result__value {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--color-display-text);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: var(--font-size-result);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  letter-spacing: -0.07em;
+  line-height: 1.05;
+  text-align: right;
+}
+
+.calculator-error {
+  margin: 0 var(--space-1) var(--space-3);
+  color: var(--color-error);
+  font-size: var(--font-size-small);
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.keypad__key {
+  display: grid;
+  min-width: 0;
+  min-height: 64px;
+  place-items: center;
+  padding: 0 var(--space-2);
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  background: var(--color-key);
+  color: var(--color-ink);
+  cursor: pointer;
+  font-size: var(--font-size-key);
+  font-weight: 600;
+  line-height: 1;
+  transition:
+    transform 100ms ease,
+    background-color 140ms ease,
+    border-color 140ms ease,
+    box-shadow 140ms ease;
+  user-select: none;
+}
+
+.keypad__key:hover {
+  background: var(--color-key-hover);
+}
+
+.keypad__key:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+.keypad__key:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.keypad__key--utility {
+  background: var(--color-key-utility);
+  color: var(--color-ink-soft);
+  font-size: var(--font-size-body);
+  font-weight: 700;
+}
+
+.keypad__key--operator {
+  background: var(--color-operator);
+  color: var(--color-ink);
+  font-size: var(--font-size-key-operator);
+}
+
+.keypad__key--operator:hover {
+  background: var(--color-operator-hover);
+}
+
+.keypad__key--operator.is-active {
+  border-color: var(--color-ink);
+  box-shadow: inset 0 0 0 1px var(--color-ink);
+}
+
+.keypad__key--equals {
+  background: var(--color-ink);
+  color: var(--color-display-text);
+  font-size: var(--font-size-key-operator);
+}
+
+.keypad__key--equals:hover {
+  background: var(--color-ink-hover);
+}
+
+.keypad__key--wide {
+  grid-column: span 2;
+}
+
+.keyboard-hint {
+  margin: var(--space-4) 0 0;
+  color: var(--color-ink-soft);
+  font-size: var(--font-size-caption);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.page-note {
+  margin: var(--space-4) 0 0;
+  color: var(--color-ink-soft);
+  font-size: var(--font-size-caption);
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  .calculator-panel {
+    padding: var(--space-3);
+  }
+
+  .keypad__key {
+    min-height: 56px;
+    border-radius: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
