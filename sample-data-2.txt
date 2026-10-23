@@ -1,0 +1,22 @@
+Sample Order Data
+
+Order ID: O-5001
+Customer ID: C-1001
+Item: Notebook
+Quantity: 3
+Total: $18.00
+Status: Shipped
+
+Order ID: O-5002
+Customer ID: C-1002
+Item: Desk Lamp
+Quantity: 1
+Total: $42.50
+Status: Processing
+
+Order ID: O-5003
+Customer ID: C-1003
+Item: Water Bottle
+Quantity: 2
+Total: $25.00
+Status: Pending

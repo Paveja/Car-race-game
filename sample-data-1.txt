@@ -1,0 +1,19 @@
+Sample Contact Data
+
+ID: C-1001
+Name: Jordan Lee
+Email: jordan.lee@example.com
+City: Portland
+Status: Active
+
+ID: C-1002
+Name: Priya Shah
+Email: priya.shah@example.com
+City: Austin
+Status: Active
+
+ID: C-1003
+Name: Mateo Rivera
+Email: mateo.rivera@example.com
+City: Denver
+Status: Pending
