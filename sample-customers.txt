@@ -1,0 +1,20 @@
+Sample Customer Data
+====================
+
+Customer ID: CUST-1001
+Name: Avery Morgan
+Email: avery.morgan@example.test
+City: Portland
+Status: Active
+
+Customer ID: CUST-1002
+Name: Jordan Lee
+Email: jordan.lee@example.test
+City: Madison
+Status: Active
+
+Customer ID: CUST-1003
+Name: Riley Patel
+Email: riley.patel@example.test
+City: Austin
+Status: Inactive
