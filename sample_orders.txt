@@ -1,0 +1,23 @@
+Sample Orders
+=============
+
+Order ID: ORD-1001
+Customer ID: CUST-001
+Date: 2025-02-12
+Items: 2
+Total: $48.50
+Status: Shipped
+
+Order ID: ORD-1002
+Customer ID: CUST-002
+Date: 2025-02-14
+Items: 1
+Total: $19.99
+Status: Processing
+
+Order ID: ORD-1003
+Customer ID: CUST-003
+Date: 2025-02-18
+Items: 3
+Total: $72.00
+Status: Delivered
