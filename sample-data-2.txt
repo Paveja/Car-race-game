@@ -1,0 +1,13 @@
+Sample Task Data
+
+ID: TASK-2001
+Title: Prepare monthly report
+Assigned to: Avery Johnson
+Priority: High
+Status: In progress
+
+ID: TASK-2002
+Title: Review customer feedback
+Assigned to: Morgan Lee
+Priority: Normal
+Status: Not started

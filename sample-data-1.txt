@@ -1,0 +1,13 @@
+Sample Customer Data
+
+ID: CUST-1001
+Name: Avery Johnson
+Email: avery.johnson@example.com
+Plan: Standard
+Status: Active
+
+ID: CUST-1002
+Name: Morgan Lee
+Email: morgan.lee@example.com
+Plan: Premium
+Status: Pending
