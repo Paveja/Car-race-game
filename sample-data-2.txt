@@ -1,0 +1,22 @@
+Sample Orders
+
+Order: ORD-2401
+Customer: CUST-1001
+Item: Notebook
+Quantity: 2
+Total: $18.00
+Status: Shipped
+
+Order: ORD-2402
+Customer: CUST-1002
+Item: Desk lamp
+Quantity: 1
+Total: $32.50
+Status: Processing
+
+Order: ORD-2403
+Customer: CUST-1003
+Item: Water bottle
+Quantity: 3
+Total: $45.00
+Status: Delivered

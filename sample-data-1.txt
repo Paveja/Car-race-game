@@ -1,0 +1,19 @@
+Sample Customer Records
+
+ID: CUST-1001
+Name: Avery Chen
+Email: avery.chen@example.com
+City: Portland
+Status: Active
+
+ID: CUST-1002
+Name: Jordan Rivera
+Email: jordan.rivera@example.com
+City: Raleigh
+Status: Pending
+
+ID: CUST-1003
+Name: Sam Patel
+Email: sam.patel@example.com
+City: Madison
+Status: Active
