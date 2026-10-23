@@ -1,0 +1,7 @@
+Sample Order Data
+
+Order ID | Customer ID | Date       | Item                | Quantity | Total
+---------|-------------|------------|---------------------|----------|------
+ORD-1001 | 1           | 2025-02-10 | Reusable Water Bottle | 2        | $38.00
+ORD-1002 | 2           | 2025-02-12 | Desk Lamp             | 1        | $49.50
+ORD-1003 | 3           | 2025-02-14 | Notebook Set          | 3        | $21.00

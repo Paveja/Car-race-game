@@ -1,0 +1,7 @@
+Sample Customer Data
+
+ID | Name          | Email                    | City
+---|---------------|--------------------------|-------------
+1  | Avery Chen    | avery.chen@example.com   | Portland
+2  | Jordan Patel  | jordan.patel@example.com | Austin
+3  | Morgan Rivera | morgan.rivera@example.com| Chicago
