@@ -1,0 +1,23 @@
+Sample Orders
+=============
+
+Order ID: ORD-1001
+Date: 2025-02-14
+Customer: Jordan Lee
+Items: 2 x Notebook, 1 x Pen Set
+Total: $24.50
+Status: Shipped
+
+Order ID: ORD-1002
+Date: 2025-02-16
+Customer: Samira Patel
+Items: 1 x Desk Lamp
+Total: $38.00
+Status: Processing
+
+Order ID: ORD-1003
+Date: 2025-02-18
+Customer: Alex Morgan
+Items: 3 x Storage Box
+Total: $45.75
+Status: Delivered

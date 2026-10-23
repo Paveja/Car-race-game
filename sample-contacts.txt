@@ -1,0 +1,14 @@
+Sample Contacts
+===============
+
+Name: Jordan Lee
+Email: jordan.lee@example.com
+Role: Product Manager
+
+Name: Samira Patel
+Email: samira.patel@example.com
+Role: Software Engineer
+
+Name: Alex Morgan
+Email: alex.morgan@example.com
+Role: Customer Support
