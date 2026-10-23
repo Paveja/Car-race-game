@@ -1,0 +1,19 @@
+Sample Customer Data
+
+ID: CUST-001
+Name: Ava Patel
+Email: ava.patel@example.test
+City: Portland
+Status: Active
+
+ID: CUST-002
+Name: Mateo Rivera
+Email: mateo.rivera@example.test
+City: Austin
+Status: Active
+
+ID: CUST-003
+Name: Harper Chen
+Email: harper.chen@example.test
+City: Madison
+Status: Inactive
