@@ -1,0 +1,16 @@
+Sample People Data
+
+ID: 1001
+Name: Jordan Lee
+Email: jordan.lee@example.com
+City: Portland
+
+ID: 1002
+Name: Casey Morgan
+Email: casey.morgan@example.com
+City: Austin
+
+ID: 1003
+Name: Taylor Rivera
+Email: taylor.rivera@example.com
+City: Toronto

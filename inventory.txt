@@ -1,0 +1,16 @@
+Sample Inventory Data
+
+SKU: BK-204
+Item: Notebook
+Quantity: 48
+Unit Price: 3.50
+
+SKU: PN-117
+Item: Blue Pen
+Quantity: 120
+Unit Price: 1.25
+
+SKU: MG-032
+Item: Ceramic Mug
+Quantity: 26
+Unit Price: 9.99
