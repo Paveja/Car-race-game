@@ -1,0 +1,23 @@
+Sample Orders
+=============
+
+Order ID: ORD-5001
+Customer ID: CUST-1001
+Date: 2025-02-14
+Items: Notebook (2), Pen Set (1)
+Total: $28.50
+Status: Shipped
+
+Order ID: ORD-5002
+Customer ID: CUST-1002
+Date: 2025-02-16
+Items: Desk Lamp (1)
+Total: $42.00
+Status: Processing
+
+Order ID: ORD-5003
+Customer ID: CUST-1003
+Date: 2025-02-18
+Items: Water Bottle (1), Tote Bag (1)
+Total: $31.75
+Status: Delivered
