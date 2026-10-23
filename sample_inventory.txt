@@ -1,0 +1,20 @@
+Sample Inventory
+================
+
+SKU: BK-204
+Item: Field Notes Journal
+Category: Stationery
+Quantity: 38
+Unit Price: 12.50
+
+SKU: MUG-118
+Item: Ceramic Travel Mug
+Category: Drinkware
+Quantity: 16
+Unit Price: 24.00
+
+SKU: BAG-052
+Item: Canvas Utility Tote
+Category: Bags
+Quantity: 27
+Unit Price: 18.75
